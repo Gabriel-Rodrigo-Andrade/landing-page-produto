@@ -12119,7 +12119,8 @@ textarea.form-control-lg {
   background: #0056b3;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;

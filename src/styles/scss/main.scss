@@ -2,11 +2,9 @@
 @import "layouts/header";
 @import "layouts/footer";
 @import "pages/home";
-@import "components/buttons";
-@import "components/cards";
 
-
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
