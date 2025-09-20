@@ -1,21 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TB | Home</title>
-    <link rel="stylesheet" href="../../dist/css/main.css" />
-  </head>
-  <body>
-    <header>
-      <div id="header"></div>
-    </header>
-    <main class="content-home">
-      <div id="content"></div>
-    </main>
-    <footer>
-          <div id="footer"></div>
-    </footer>
-    <script src="../scripts/loadpartials.js"></script>
-  </body>
-</html>
+<!-- Banner abaixo do header -->
+<section class="home-banner">
+  <img src="../../dist/img/banner.png" alt="Banner" class="banner-img">
+</section>
+
+<!-- Produtos -->
+<section class="home-products" id="home">
+  <h2>Produtos</h2>
+  <div class="products-grid">
+    <div class="product-card">
+      <img src="../../dist/img/produto_teste.png" alt="Produto 1">
+      <h3>Produto 1</h3>
+      <p>Descrição do produto 1.</p>
+    </div>
+    <div class="product-card">
+      <img src="../../dist/img/produto_teste.png" alt="Produto 2">
+      <h3>Produto 2</h3>
+      <p>Descrição do produto 2.</p>
+    </div>
+    <div class="product-card">
+      <img src="../../dist/img/produto_teste.png" alt="Produto 3">
+      <h3>Produto 3</h3>
+      <p>Descrição do produto 3.</p>
+    </div>
+    <div class="product-card">
+      <img src="../../dist/img/produto_teste.png" alt="Produto 4">
+      <h3>Produto 4</h3>
+      <p>Descrição do produto 4.</p>
+    </div>
+    <div class="product-card">
+      <img src="../../dist/img/produto_teste.png" alt="Produto 5">
+      <h3>Produto 5</h3>
+      <p>Descrição do produto 5.</p>
+    </div>
+    <div class="product-card">
+      <img src="../../dist/img/produto_teste.png" alt="Produto 6">
+      <h3>Produto 6</h3>
+      <p>Descrição do produto 6.</p>
+    </div>
+    <div class="product-card">
+      <img src="../../dist/img/produto_teste.png" alt="Produto 7">
+      <h3>Produto 7</h3>
+      <p>Descrição do produto 7.</p>
+    </div>
+    <div class="product-card">
+      <img src="../../dist/img/produto_teste.png" alt="Produto 8">
+      <h3>Produto 8</h3>
+      <p>Descrição do produto 8.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Sobre a empresa -->
+<section class="home-about" id="about">
+  <h2>Sobre a Empresa</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur consectetur,
+    nisl nisi consectetur nisi, euismod euismod nisi nisi euismod.</p>
+</section>
+
+<!-- Formulário de contato -->
+<section class="home-contact" id="contact">
+  <h2>Contato</h2>
+  <form class="contact-form">
+    <div class="form-group">
+      <label for="name">Nome</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Mensagem</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+    </div>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+</div>

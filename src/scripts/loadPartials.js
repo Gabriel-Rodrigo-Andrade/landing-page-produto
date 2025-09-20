@@ -1,4 +1,4 @@
-// Função para carregar um partial HTML dentro de um elemento
+// vai carregar um partial HTML dentro de um elemento
 function loadPartial(id, filePath) {
   fetch(filePath)
     .then(response => {
@@ -14,9 +14,7 @@ function loadPartial(id, filePath) {
       console.error("Erro ao carregar partial:", error);
     });
 }
-
-// Quando a página carregar, injeta os partials
 document.addEventListener("DOMContentLoaded", () => {
-  loadPartial("header", "../partials/header.html"); // header
-  loadPartial("footer", "../partials/footer.html"); // footer
+  loadPartial("header", "src/partials/header.html");
+  loadPartial("footer", "src/partials/footer.html");
 });

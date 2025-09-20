@@ -1,4 +1,4 @@
-// Função para carregar conteúdo de uma página dentro de #page-content
+// Vai carregar conteúdo de uma página dentro do index
 function loadPage(filePath) {
   fetch(filePath)
     .then(response => {
@@ -13,7 +13,6 @@ function loadPage(filePath) {
     .catch(error => console.error("Erro ao carregar página:", error));
 }
 
-// Quando o DOM estiver pronto, carregamos a home por padrão
 document.addEventListener("DOMContentLoaded", () => {
   loadPage("src/pages/home.html");
 });
